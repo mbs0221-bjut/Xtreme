@@ -26,6 +26,7 @@ void set(LONG N, LONG A, LONG B) {
 	printf("%lld\n", sum% 1000000007);
 }
 
+// play 20 questions with an unreliable friends
 int main() {
 	LONG Q, N, A, B;
 	scanf_s("%lld", &Q);

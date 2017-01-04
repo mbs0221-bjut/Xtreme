@@ -45,9 +45,6 @@
     <ClCompile Include="Full Adder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Goldbach%27s Second Conjecture.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Safety.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

@@ -24,15 +24,15 @@ public:
 		}
 	}
 	void clear() {
-		//list *t, *p;
+		list *t, *p;
 		count = 0;
 		for (int i = 0; i < 256; i++) {
-			//p = data[i];
-			//while (p) {
-			//	t = p;
-			//	p = p->next;
-			//	delete t;
-			//}
+			p = data[i];
+			while (p) {
+				t = p;
+				p = p->next;
+				delete t;
+			}
 			data[i] = NULL;
 		}
 	}

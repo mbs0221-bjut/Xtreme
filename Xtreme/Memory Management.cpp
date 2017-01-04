@@ -6,6 +6,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+	FIFO cache replacement algorithm
+ */
 int FIFO(int *addrs, int p, int s, int n) {
 	int front, hits, misses;
 	int *pages = new int[p];
@@ -34,6 +37,9 @@ int FIFO(int *addrs, int p, int s, int n) {
 	return misses > p ? misses - p : 0;
 }
 
+/*
+ * LRU cache replacement algorithm
+ */
 int LRU(int *addrs, int p, int s, int n) {
 	int hits, misses, max;
 	int *pages = new int[p];

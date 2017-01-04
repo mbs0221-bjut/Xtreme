@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <limits.h>
 
+/*
+ * optimal cache replacement algorithm 
+ * there are two cache blocks can be use
+ */
 int main() {
 	int A, B, CA, CB, M, i, T, N, W[500];
 	scanf("%d", &T);

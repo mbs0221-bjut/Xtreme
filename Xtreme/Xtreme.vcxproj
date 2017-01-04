@@ -121,7 +121,6 @@
     <ClCompile Include="Mysterious Maze.cpp" />
     <ClCompile Include="Safety.cpp" />
     <ClCompile Include="Island Hopping 1.cpp" />
-    <ClCompile Include="Goldbach%27s Second Conjecture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />

@@ -6,6 +6,7 @@ using namespace std;
 
 char pwd[N];
 
+//
 void check(int i, int j, int k) {
 	int a, b, c;
 	a = i, b = j, c = k;
@@ -19,6 +20,7 @@ void check(int i, int j, int k) {
 	cout << "Y" << endl;
 }
 
+// replace substring from i to j 
 void replace(int i, int j, int k) {
 	int a, b, c;
 	a = i, b = j, c = k;

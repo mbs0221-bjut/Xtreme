@@ -49,10 +49,10 @@ int main() {
 	ny = strlen(A);
 	while (n > ny) { printf(" "); n--; }
 	printf("%s\n", A);
-	//printf("+");
+
 	n = strlen(S);
 	nx = strlen(B);
-	//while (n > nx) { printf(" "); n--; }
+
 	printf("%s\n", B);
 	printf("%s\n", S);
 	reverse(A);

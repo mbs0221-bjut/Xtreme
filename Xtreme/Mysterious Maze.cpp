@@ -9,6 +9,10 @@
 
 using namespace std;
 
+/*
+ * Maze
+ * 
+ */
 class Maze {
 private:
 	int maze[M][N];
